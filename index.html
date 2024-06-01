@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bubble Sort Visualizer</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bars_container" id="bars_container"></div>
+        <div class="buttons_container">
+            <select name="" id="speed">
+                <option value="400">Slow</option>
+                <option value="200">Medium</option>
+                <option value="100">Fast</option>
+            </select>
+            <input 
+                type="text"
+                id="input_array"
+                placeholder="Enter numbers separated by a comma"
+            /> 
+            <button id="submit_array_btn"> Submit Array</button>
+            <button id="randomize_array_btn">Randomize Array</button>
+            <button id="sort_btn"> Sort </button>
+            <button id="restart_btn"> Restart </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
