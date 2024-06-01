@@ -1,2 +1,2 @@
-# sorting-visualizer
-Visualizer for sorting algorithms
+# Algortihm Visualizations
+Visualizations of Computer Science algorithms to assist students in their learning
